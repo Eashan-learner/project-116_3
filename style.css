@@ -1,0 +1,13 @@
+btn-success:hover{
+    background-color: red;
+}
+Canvas{
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    border: 1px solid goldenrod     ;
+}
+@keyframes example{
+    from{box-shadow: -2px -2px 30px blue;}
+    to{box-shadow: -2px -2px 30px green;}
+}
